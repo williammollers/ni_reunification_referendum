@@ -2,6 +2,11 @@
 This project is a part of the Data Analytics Bootcamp Oct 2020 - Jan 2021 at IRON HACK, Berlin, Germany .
 
 
+PLEASE CHECK OUT THE WIKI FOR THIS PROJECT https://github.com/williammollers/finalproject-ironhack-NI/wiki
+*Day by day progress
+*Limitations explained in detail
+*Sources listed in detail
+
 NOTE: THIS IS A PLACEHOLDER TEXT AND RELATES TO MY PREVIOUS PROJECT.
 
 -- Project Status: [Completed]
