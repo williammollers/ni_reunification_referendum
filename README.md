@@ -1,7 +1,11 @@
 # Northern ireland (NI): Brexit, Religion & Reunification  
 This project is a part of the Data Analytics Bootcamp Oct 2020 - Jan 2021 at IRON HACK, Berlin, Germany .
 
-PLEASE CHECK OUT THE [WIKI](https://github.com/williammollers/finalproject-ironhack-NI/wiki) FOR THIS PROJECT 
+I completed this project in 11 days during the bootcamp and was designed to test the knowledge I had gained during the bootcamp. 
+
+This was my first ever larger and independently constructed individual project. I alone decided the entire scope of the project and it therefore is not perfect :).
+
+PLEASE CHECK OUT THE [WIKI](https://github.com/williammollers/finalproject-ironhack-NI/wiki) FOR THIS PROJECT
 * Day by day progress
 * Limitations explained in detail
 * Sources listed in detail
@@ -14,25 +18,26 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 * Identify electorates in NI that future YES (in a reunification campaign) campaigners should target
 * Determine whether there is correlation between religious identity and voting patterns
 
-This was my first ever larger and independently decided individual project. 
+##### Methods Used
 
-I completed this project in 11 days (see the [wiki](https://github.com/williammollers/finalproject-ironhack-NI/wiki) fo more detail completed during the bootcamp and was designed to test my knowledhge in MySQL, Python (and associated libraries, e.g. NUMPY, SCIKITLEARN, PANDAS, etc) and to be an introduction to Tableau.
+* Kanban (in Trello)
+* Data Acquisition (i.e. webscraping)
+* Data Exploration / Cleaning / Wrangling 
+* Correlation Analysis 
+* Data Visualization 
+* Presentation 
 
-For the exact specifications of the various parts of the project, please see the .md files contained in the respective directories and the .csv that was used is also provided in this repository.
+##### Technologies
+* Jupyter Notebook
+* Python
+* Pandas
+* Webscraping
+* Numpy
+* Excel 
+* Tableau
+* Powerpoint
 
-Methods Used
-Linear Regression & other forms of regressions analysis
-Machine Learning
-Data Visualization
-Kanban
-Technologies
-Python
-MySql
-Pandas, jupyter
-SkLearn
-Numpy
-Tableau
-Project Description
+## Project Description
 The data used in this project was provided by the IRONHACK team and in general it was a fairly clean dataset.
 
 In the beginning I was tasked with exploring the data in MySql and then to carry out further EDA, cleaning and wrangling within my Jupyter Notebook using python and it's associated libraries. Visualisation was completed in Tableau.
