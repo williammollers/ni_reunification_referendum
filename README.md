@@ -1,17 +1,22 @@
-# IRONHACK FINAL PROJECT: The border in NI: Does Brexit make the reunification of Ireland more likely?  
+# Northern ireland (NI): Brexit, Religion & Reunification  
 This project is a part of the Data Analytics Bootcamp Oct 2020 - Jan 2021 at IRON HACK, Berlin, Germany .
 
-
-PLEASE CHECK OUT THE WIKI FOR THIS PROJECT https://github.com/williammollers/finalproject-ironhack-NI/wiki
-*Day by day progress
-*Limitations explained in detail
-*Sources listed in detail
-
-NOTE: THIS IS A PLACEHOLDER TEXT AND RELATES TO MY PREVIOUS PROJECT.
+PLEASE CHECK OUT THE [WIKI](https://github.com/williammollers/finalproject-ironhack-NI/wiki) FOR THIS PROJECT 
+* Day by day progress
+* Limitations explained in detail
+* Sources listed in detail
 
 -- Project Status: [Completed]
-Project Intro/Objective
-The purpose of this project is to predict the price of houses (which was provided in the .csv) from the remainder of the variables that pertained to housing sales that occurred in the Seattle area in 2014-2015. As a secondary objective we were tasked with seeing if properties over $650k had particular reasons, as opposed to cheaper properties. This was my first individual project completed during the bootcamp and was designed to test my knowledhge in MySQL, Python (and associated libraries, e.g. NUMPY, SCIKITLEARN, PANDAS, etc) and to be an introduction to Tableau.
+
+## Project Objective
+
+The purpose of this project was to analyse RELIGION / VOTING data in Northern Ireland (NI) to see whether these two statements could be clarified:
+* Identify electorates in NI that future YES (in a reunification campaign) campaigners should target
+* Determine whether there is correlation between religious identity and voting patterns
+
+This was my first ever larger and independently decided individual project. 
+
+I completed this project in 11 days (see the [wiki](https://github.com/williammollers/finalproject-ironhack-NI/wiki) fo more detail completed during the bootcamp and was designed to test my knowledhge in MySQL, Python (and associated libraries, e.g. NUMPY, SCIKITLEARN, PANDAS, etc) and to be an introduction to Tableau.
 
 For the exact specifications of the various parts of the project, please see the .md files contained in the respective directories and the .csv that was used is also provided in this repository.
 
