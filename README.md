@@ -54,7 +54,7 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 * The data used in this project was acquired from multiple sources, all of which were UK based government agencies. An exact list is [here](https://github.com/williammollers/finalproject-ironhack-NI/wiki/DATA-SOURCES). 
 
 * Most of the data was in XLS format, but sometimes in a huge amount of files, so I needed to iterate over these files to extract what I wanted (see this in the below notebook and the files used are [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/ALL_DATA_SOURCES/ORIGINAL/Religion/AA).
-Unfortunately the Electoral Office of NI does not provide any data in XLS format and so I had to scrape their website. 
+* Unfortunately the Electoral Office of NI does not provide any data in XLS format and so I had to scrape their website. 
 
 * The entire flow of this can be seen in this [notebook](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/PYTHON/REUNIFICATION_REFERENDUM_IRELAND.ipynb)
 
@@ -85,32 +85,29 @@ Unfortunately the Electoral Office of NI does not provide any data in XLS format
 
 ##### Data Visualisation
 
-* All data was visualised in tableau and can be seen [here](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/TABLEAU/REUNIFICATION_REFERENDUM_IRELAND.twbx)
+* All data was visualised in tableau and can be seen [here](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/TABLEAU/REUNIFICATION_REFERENDUM_IRELAND.twbx). Please note that you should look at the story at the end, as it brings everything together!
 * The biggest issue here was joining together many different data sources and I used shape files located here for the [electorates](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/ALL_DATA_SOURCES/ORIGINAL/Westminster_Parliamentary_Constituencies__December_2017__UK_BSC_V2-shp) and here for the [river Bann](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/ALL_DATA_SOURCES/ORIGINAL/riversegmentshp1)
 
 ##### Presentation
 
 * The final part of this project was a [power point presentation](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/PRESENTATION/Northern%20Ireland%20Presentation.pptx).
 
+## Challenges 
 
-There were many challenges in the project, including the following:
+* First time doing something like this. Therefore I spent a lot of time on structure and hope that the flow of project is logical.
+* There were many [limitations](https://github.com/williammollers/finalproject-ironhack-NI/wiki/LIMITATIONS) on what I could conclude after all of my work.
+* While I have improved in Tableau, it is still an immensely great tool that requires a lot of love. Watch out for a future Tableau dev! 
+* The project occurred during Germany's second lockdown. This made exchanging opinion with colleagues very difficult and it was truly an individal project and at times quite lonely. 
 
-First time doing something like this. Therefore I spent a lot of time on structure and hope that the project is easy to read.
-Tableau was something that we had barely touched before this. Therefore were some visualisations far from ideal, but I am sure this will improve by the next commit.
-The project occurred during the 3rd week of Germany's second lockdown. This made exchanging opinion with colleagues very difficult and it was truly an individal project.
-Needs of this project
-data exploration/descriptive statistics
-data processing/cleaning
-statistical modeling
-writeup/reporting
-Getting Started
-Clone this repo (for help see this tutorial).
-Raw Data is being kept [here]https://github.com/williammollers/housing-regression-ironhack-midtermproject-nov-2020/tree/master/PYTHON_REGRESSION_ANALYSIS) within this repo.
-Data processing/transformation scripts are being kept here
-Featured Notebooks/Analysis/Deliverables
-All in all we had to deliver a MySql query book, a jupyter notebook, a Tableau dashboard, this readme file and a presentation (to be added)
+## Getting Started
 
-Contact
-Feel free to get in touch with me as you wish!
+*Clone this repo (for help see this tutorial).
+* All raw data is being kept [here]https://github.com/williammollers/finalproject-ironhack-NI/tree/main/ALL_DATA_SOURCES) within this repo.
+* All work in PYTHON is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/PYTHON)
+* All Tableau data is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/TABLEAU)
+* Final presentation is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/PRESENTATION)
+
+## Contact
+Feel free to get in touch with me if you wish!
 hi@williammollers.com
 https://www.linkedin.com/in/williammollers/
