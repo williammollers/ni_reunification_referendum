@@ -37,10 +37,43 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 * Tableau
 * Powerpoint
 
-## Project Description
-The data used in this project was provided by the IRONHACK team and in general it was a fairly clean dataset.
+## Project Concept
 
-In the beginning I was tasked with exploring the data in MySql and then to carry out further EDA, cleaning and wrangling within my Jupyter Notebook using python and it's associated libraries. Visualisation was completed in Tableau.
+* The concept behind this project was to see whether there is a potential 50%+ majority for a YES vote in any future reunification referendum held in Northern Ireland. 
+* The idea for this had come about because of deep personal history (I grew up with a West German father and so understand how painful division is) and the relevance of this topic: even as I type the final negotiations on a Brexit deal are being carried out. 
+
+## Project Description
+
+##### Data Acquisition 
+
+* The data used in this project was acquired from multiple sources, all of which were UK based government agencies. An exact list is [here](https://github.com/williammollers/finalproject-ironhack-NI/wiki/DATA-SOURCES). 
+
+* Most of the data was in XLS format, but sometimes in a huge amount of files, so I needed to iterate over these files to extract what I wanted.
+Unfortunately the Electoral Office of NI does not provide any data in XLS format and so I had to scrape their website. 
+
+* The entire flow of this can be seen in this [notebook](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/PYTHON/REUNIFICATION_REFERENDUM_IRELAND.ipynb)
+
+##### Data Exploration 
+
+* This was carried out in Excel, as the files were largely in that format. 
+
+##### Data Cleaning 
+
+* I made sure all column names were lower case (mostly)
+* Electorate names were harmonised
+* A decision was made to keep none values, as they are indicative (e.g. if someone didn't vote or if a party didn't run a candidate in an electorate)
+
+#### Data Wrangling
+
+* I narrowed the scope of the project down to the Electorate level, as I noticed that some data (e.g. all election data) was only provided at that level and subsequently any data that was more granular (e.g. ward level) or more macro (e.g. national) was eliminated from the analysis.  
+* I ended up having close to 20 different xls files (some I created myself as in the notebook above) and so I wanted to concatenate them all into 1 or 2 files. 
+* I sucessfully did this and so created 2 main sources: 
+[my master spreadsheet](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/ALL_DATA_SOURCES/MY_ADDITIONS/MAIN/MASTER_SPREADSHEET.xlsx) and my [voting results spreadsheet](https://github.com/williammollers/finalproject-ironhack-NI/blob/main/ALL_DATA_SOURCES/MY_ADDITIONS/MAIN/ni_uk_19_all_electorates_cian.xlsx)
+
+##### Correlation Analysis
+
+After thoroughly loo
+
 
 There were many challenges in the project, including the following:
 
