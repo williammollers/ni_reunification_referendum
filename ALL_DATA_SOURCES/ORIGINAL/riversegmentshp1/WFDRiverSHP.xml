@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:geonet="http://www.fao.org/geonetwork"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <gmd:fileIdentifier xmlns:gml="http://www.opengis.net/gml" xmlns:srv="http://www.isotc211.org/2005/srv">
+      <gco:CharacterString>3a663bbe-7a7e-4da2-b183-bde79d30386a</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+                        codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Northern Ireland Environment Agency</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:deliveryPoint>
+                     <gmd:city gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:city>
+                     <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:postalCode>
+                     <gmd:country gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>waterinfo@doeni.gov.uk</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:DateTime xmlns:gml="http://www.opengis.net/gml" xmlns:srv="http://www.isotc211.org/2005/srv">2010-12-09T12:30:25</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>urn:ogc:def:crs:EPSG::29903</gco:CharacterString>
+               </gmd:code>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>WFDRiver</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2010-08-24</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:identifier>
+                  <gmd:RS_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>RiverSegmentSHPhttp://www.ni-environment.gov.uk</gco:CharacterString>
+                     </gmd:code>
+                     <gmd:codeSpace gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:codeSpace>
+                  </gmd:RS_Identifier>
+               </gmd:identifier>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Rivers defined under Article 2(4) of the Water Framework Directive.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Northern Ireland Environment Agency</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>waterinfo@doeni.gov.uk</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>www.ni-environment.gov.uk</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:protocol gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:protocol>
+                           <gmd:name gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:name>
+                           <gmd:description gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:description>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="owner">owner</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Hydrography</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>GEMET - INSPIRE Themes</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-06-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:edition>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"/>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>No limitations</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>You may use this data subject to the following terms and conditions. Title, copyright and all other proprietary rights in the digital data remain vested in Northern Ireland Environment Agency and Land &amp; Property Services (LPS)/Ordnance Survey of Northern Ireland (OSNI). Northern Ireland Environment Agency does not guarantee that the digital data is free of minor errors not materially affecting performance. You accept the digital data as delivered. Northern Ireland Environment Agency does not guarantee that the digital data will be suitable for use with any GIS or any other computer software. You are authorised to use this Northern Ireland Environment Agency digital datasets, for personal use and internal use within an organisation. This is subject to the material being reproduced accurately and not used in a misleading context. However, you are not allowed to sell this digital data to a third party. If you print a map containing some of this digital data, the following statement should appear on the map: - 'This material is based upon Crown Copyright and is reproduced with the permission of Land &amp; Property Services under delegated authority from the Controller of Her Majesty’s Stationery Office, Crown copyright and database rights, EMOU206.2. Northern Ireland Environment Agency Copyright 2010' Maps containing all or any part of these digital datasets may not be published in hard copy or on the internet without prior written permission from the Northern Ireland Environment Agency.</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:distance>
+                  <gco:Distance uom="urn:ogc:def:uom:EPSG::9001">125</gco:Distance>
+               </gmd:distance>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+                              codeListValue="eng"/>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-8.209052</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-5.411521</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>53.740968</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>55.324395</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="T1">
+                           <gml:beginPosition>2004-12-22</gml:beginPosition>
+                           <gml:endPosition/>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>1</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.ni-environment.gov.uk/RiverSegmentSHP.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>INSPIRE Regulations 2009 No 3157</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2009-12-31</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>Not evaluated</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>River features that had been created to comply with Article 2(4) of the Water Framework Directive were the basis of this dataset.  The data was topologically corrected to ensure that the rivers were within the catchments defined as river water bodies (polygon dataset) for the Water Framework Directive.  The original dataset was corrected externally as part of a low flow model project and the corrected features were assigned a Strahler stream order. Begin_Lifespan and End_Lifespan information was added to enable historical data to be kept along with current data in this resource.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
