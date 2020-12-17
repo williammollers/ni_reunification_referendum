@@ -43,9 +43,9 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 * The idea for this had come about because of deep personal history (I grew up with a West German father and so understand how painful division is) and the relevance of this topic: even as I type the final negotiations on a Brexit deal are being carried out. 
 * Because of the huge amount of data available I decided to limit the project to three main years:
 
-*2011 Census: Data on the religion brought up in
-*2016 Brexit Vote
-*2019 UK General Election
+* 2011 Census: Data on the religion brought up in
+* 2016 Brexit Vote
+* 2019 UK General Election
 
 ## Project Description
 
