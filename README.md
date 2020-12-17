@@ -101,13 +101,13 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 
 ## Getting Started
 
-*Clone this repo (for help see this tutorial).
+* Clone this repo (for help see this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 * All raw data is being kept [here]https://github.com/williammollers/finalproject-ironhack-NI/tree/main/ALL_DATA_SOURCES) within this repo.
 * All work in PYTHON is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/PYTHON)
 * All Tableau data is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/TABLEAU)
 * Final presentation is [here](https://github.com/williammollers/finalproject-ironhack-NI/tree/main/PRESENTATION)
 
 ## Contact
-Feel free to get in touch with me if you wish!
-hi@williammollers.com
-https://www.linkedin.com/in/williammollers/
+* Feel free to get in touch with me if you wish!
+* hi@williammollers.com
+* https://www.linkedin.com/in/williammollers/
