@@ -97,7 +97,7 @@ The purpose of this project was to analyse RELIGION / VOTING data in Northern Ir
 * First time doing something like this. Therefore I spent a lot of time on structure and hope that the flow of project is logical.
 * There were many [limitations](https://github.com/williammollers/finalproject-ironhack-NI/wiki/LIMITATIONS) on what I could conclude after all of my work.
 * While I have improved in Tableau, it is still an immensely great tool that requires a lot of love. Watch out for a future Tableau dev! 
-* The project occurred during Germany's second lockdown. This made exchanging opinion with colleagues very difficult and it was truly an individal project and at times quite lonely. 
+* The project occurred during Germany's second lockdown. This made exchanging opinion with colleagues very difficult and it was truly an individal project and at times quite challenging. See my [wiki](https://github.com/williammollers/finalproject-ironhack-NI/wiki) for a day by day breakdown of the process. 
 
 ## Getting Started
 
